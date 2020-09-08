@@ -31,7 +31,7 @@ setup(
     url='https://github.com/aio-libs/aiocassandra',
     description='Simple threaded cassandra wrapper for asyncio',
     long_description=read('README.rst'),
-    install_requires=['cassandra-driver', 'async-generator'],
+    install_requires=['scylla-driver', 'async-generator'],
     setup_requires=['pytest-runner'] if needs_pytest else [],
     tests_require=['pytest', 'pytest-asyncio', 'pytest-cov'],
     python_requires='>=3.4.0',
